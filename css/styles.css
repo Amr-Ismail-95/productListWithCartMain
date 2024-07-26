@@ -1,0 +1,43 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+body {
+  background-color: #fcf8f5;
+}
+
+.container {
+  width: 120rem;
+  margin: 0 auto;
+  display: flex;
+  gap: 3rem;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.items {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+}
+
+.main-head {
+  grid-column: 1/-1;
+}
+
+.item {
+  width: 20rem;
+}
+
+.item img {
+  width: 100%;
+}
+
+.cart {
+  background-color: #fff;
+}
